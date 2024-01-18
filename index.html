@@ -15,20 +15,19 @@
             <!-- Menu hamburguesa-->
             <div class="cont-menu active" id="menu">
                 <ul>
-                    <li><img style="width: 30px; vertical-align:bottom;" class="nav-item" src="/src/img/nav_sobre-nosotros.png" alt=""> Sobre Nosotros </li>
-                    <li> <img style="width: 30px; vertical-align:bottom;"  class="nav-item" src="/src/img/nav_menu-comida.png" alt=""> Menu</li>
-                    <li> <img style="width: 30px; vertical-align:bottom;" class="nav-item" src="/src/img/nav_info-local.png" alt=""> Informacion</li>
-                    <li> <img style="width: 30px; vertical-align:bottom;" class="nav-item" src="/src/img/nav_contacto.png" alt=""> Contactanos</li>
+                    <li><img style="width: 30px; vertical-align:middle;" class="nav-item" src="/src/img/nav_sobre-nosotros.png" alt=""> Sobre Nosotros </li>
+                    <li> <img style="width: 30px; vertical-align:middle;"  class="nav-item" src="/src/img/nav_menu-comida.png" alt=""> Menu</li>
+                    <li> <img style="width: 30px; vertical-align:middle;" class="nav-item" src="/src/img/nav_info-local.png" alt=""> Informacion</li>
+                    <li> <img style="width: 30px; vertical-align:middle;" class="nav-item" src="/src/img/nav_contacto.png" alt=""> Contactanos</li>
                 </ul>
-                <div class="iframe" id="activar-iframe">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105021.14260465218!2d-58.77368570414862!3d-34.6569579403812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbf7809861d5d%3A0x6bc97859fd9d3d86!2sItuzaing%C3%B3%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1705432125684!5m2!1ses-419!2sar" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+
             </div>
         <div class="fondo">
         </div>
     </header>
     <main>
-        <section class="service">
+        <section class="servicios">
+            <h2 class="section_service-tittle">Servicios</h2>
             <article class="dinner article-flex">
                 <img class="img-article" src="src/img/img_banner-cena.png" alt="">
                 <p class="p-article">Experimente momentos sabrosos: cene y disfrute cada bocado.</p>
@@ -46,8 +45,51 @@
                 </p>
             </article>
         </section>
-    </main>
+        <section class="recomendacion_semanal">
+            <h2 class="section_reco-semanal-tittle">Recomendacion Semanal</h2>
+            <div class="img_recoSemanal--container">
+                <img class="reco_semanal--img" src="src/img/recomendacion_semanal.png" alt="">
+            </div>
+        </section>
 
-    <script src="/src/js/script.js"></script>
+    </main>
+    <footer class="footer">
+        <div class="logo_footer">
+            <img style="width: 100px;" src="src/img/logo.png" alt="">
+            <p class="p_logo--footer">Roti Doña Lita</p>
+        </div>
+        <div class="flex_redes-contacto">
+            <div class="redes_sociales--footer">
+                <p>Redes Sociales</p>
+                <ul class="redes_list--contain">
+                    <li>
+                        <span class="redes_red--footer"><img class="redes_logo--footer" src="src/img/redes-facebook.png" alt="logo-Facebook"> Facebook</span>                
+                    </li>
+                    <li>
+                        <span class="redes_red--footer"><img class="redes_logo--footer" src="src/img/redes-instagram.png" alt="logo-Instagram"> Instagram</span>
+                    </li>
+                    <li>
+                        <span class="redes_red--footer"><img class="redes_logo--footer" src="src/img/redes-whatsapp.png" alt="logo-WhatsApp"> WhatsApp</span>                
+                    </li>
+                </ul>
+            </div>
+            <div class="contactanos">
+                <p>Contactanos</p>
+                <span class="contacto_footer">
+                    <img class="contacto_logo--footer" src="src/img/contactanos-telefono.png" alt="logo-telefono">
+                     + 11-2233-4455
+                </span>
+                <span class="contacto_footer">
+                    <img class="contacto_logo--footer" src="src/img/contactanos-email.png" alt="logo-email">
+                     rotiseriagenial@gmail.com
+                </span>
+            </div>
+        </div>
+        <div class="iframe" id="activar-iframe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13574.438744074285!2d-60.5220453!3d-31.7265554!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b4535f73eb1eb3%3A0x9bd57e465d718c7f!2s%22Rotiser%C3%ADa%20Do%C3%B1a%20Lita%22.%20Local%2041.!5e0!3m2!1ses-419!2sar!4v1705601836842!5m2!1ses-419!2sar" width="90%" height="200" style="border: 0; box-shadow: 2px 2px  5px 2px #FFFAFB;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <p class="derechos-reservados">©copyright 2024 - Eleva Company - Todos los derechos reservados</p>
+    </footer>
+    <script src="/src/js/menu-mobile.js"></script>
 </body>
 </html>

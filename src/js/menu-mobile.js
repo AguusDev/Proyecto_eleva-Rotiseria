@@ -3,7 +3,7 @@ let menu = document.querySelector("#menu");
 iconoMenu.addEventListener("click", e =>{
     // Alteramos estilos para el manu y el body
     menu.classList.toggle("active");
-    document.body.classList.toggle("opoacity")
+    document.body.classList.toggle("opacity")
 
     // Alteramos su atributo src para el icono del menu
     const rutaActual = e.target.getAttribute("src");
