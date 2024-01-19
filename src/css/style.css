@@ -95,6 +95,9 @@
 
 
 /* --- Iniciamos con el main ---*/
+main{
+    padding: 30px 0;
+}
 
 .servicios{
     height: 100vh;
@@ -158,9 +161,39 @@
 }
 
 
+/* ---Sobre Nosotros--- */
+.sobre_nosotros{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 7%, rgba(219,228,230,.5) 100%);
+}
 
+.sobre_nosotros--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
 
+    padding: 20px 15px;
+}
 
+.tittle_sobre-nosotros{
+    text-align: center;
+    font-size: 30px;
+}
+
+.sobre_nosotros--img{
+    width: 100%;
+}
+
+.sobre_nosotros--p{
+    font-size: 14px;
+}
+
+.sb_bold{
+    font-weight: bold;
+    font-size: 15px;
+}
 
 
 
@@ -250,6 +283,27 @@ li{
 }
 
 .contacto_logo--footer{
+    width: 20px;
+    vertical-align: middle;
+}
+
+.iframe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.iframe-p{
+    font-size: 13px;
+    color: var(--blanco);
+}
+
+.iframe_p-bold{
+    font-weight: bold;
+}
+
+.logo-ubi{
     width: 20px;
     vertical-align: bottom;
 }
