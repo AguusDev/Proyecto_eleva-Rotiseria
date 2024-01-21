@@ -15,22 +15,50 @@
 
 .fondo{
     height: 100vh;
-    width: 100%; 
-    background-image: url("../img/img_header-mobile.jpg");
+    background-image: url("../img/logo.png");
+    background-color: #e7a6c9;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    filter: brightness(.7);
+}
+
+.logo_header{
+    width: 30%;
+    top: 0px; right: 20px;
+    position: fixed;
+    z-index: 100;
+    
+    display:flex;
+    flex-direction:column;
+    align-items: center;    
+}
+
+.p_logo--header{
+    font-weight: 700;
+    font-size: 17px;
+    color: #FF1493;
 }
 
 
 /*Estilos para el icono del menu*/
 .icono-menu{
-    /* height: 50px; */
-    margin: 20px 40px;
-    position: relative;
-    z-index: 10;
+    width: 100vw;
+    top: 0px; left: 0px;
+    padding: 20px 25px;
+    position: fixed;
+    z-index: 99;
 
-    
+}
+
+.fondo-B{
+    background-color: white;
+}
+.fondo-O{
+    background-color: #2a2a2a;
+    width: 80vw;
+    transition: all .5s ease;
+    z-index: 300;
 }
 
 .menu-burger{
@@ -41,11 +69,12 @@
     vertical-align: top;
     width: 40px;
     cursor: pointer;
+
 }
 
 /* Estilos para el contenedor del menu*/
 .cont-menu{
-    background-color: rgb(42,42,42);
+    background-color: rgb(42, 42, 42);
     box-shadow:2px 0px 5px 2px rgb(66, 66, 66) ;
     width: 90vw;
     height: 100vh;
@@ -57,6 +86,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: fixed;
+    z-index: 200;
 }
 
 .active{
@@ -153,6 +184,9 @@ main{
 
 .img_recoSemanal--container{
     padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .reco_semanal--img{
@@ -203,6 +237,7 @@ main{
 .footer{
     background-color: #232323;
     padding: 20px 10px;
+    box-shadow: inset 0px 5px 20px rgba(255, 20, 147,.4);
 }
 
 .logo_footer{
@@ -294,6 +329,10 @@ li{
     row-gap: 10px;
 }
 
+iframe{
+    height: 200px;
+}
+
 .iframe-p{
     font-size: 13px;
     color: var(--blanco);
@@ -312,8 +351,14 @@ li{
     color: var(--blanco);
     font-size: .6em;
     text-align: center;
+    padding: 50px 0 0 0;
 }
 
+@media (max-width:650px){
+    .menu_header--container{
+        display: none;
+    }
+}
 
 
 
